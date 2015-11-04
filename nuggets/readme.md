@@ -1,14 +1,10 @@
-Steps for installation
+# Steps for installation #
 
-1) Install NUGG_WDA_CONTEXT_HANDLER.nugg using SAPLINK.
-
-2) Install NUGG_ZALV.nugg 
-
-3) Confirm that all the objects are activated
-
-4) Add usage of ZALV component to any component that uses SAP standand ALV component - SALV_WD_TABLE
-
-5) Instantiate ZALV component and pass ALV usage object of original ALV to ZALV by calling interface method set_alv_usage. 
+- Install NUGG_WDA_CONTEXT_HANDLER.nugg using SAPLINK.
+- Install NUGG_ZALV.nugg 
+- Confirm that all the objects are activated
+- Add usage of ZALV component to any component that uses SAP standand ALV component - SALV_WD_TABLE
+- Instantiate ZALV component and pass ALV usage object of original ALV to ZALV by calling interface method set_alv_usage. 
 
 
 
@@ -33,6 +29,5 @@ lo_interfacecontroller->set_alv_usage(
   
 
 
-6) Mandatory step: Execute the application (Required for updating Z tables with config meta data )
-
-7) Run ALV configurator app (component ZALV_COMP_CONFIG) to change ALV config
+- Mandatory step: Execute the application (Required for updating Z tables with config meta data )
+- Run ALV configurator app (component ZALV_COMP_CONFIG) to change ALV config
