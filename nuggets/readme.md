@@ -21,6 +21,11 @@ lo_interfacecontroller->set_alv_usage(
   ).
 ```
 
+- In method UPDATE_DB_FROM_CONFIG of component controller of component ZALV - check if the current system is your development system. This ensures that Z tables are updated with config meta data only in Dev system. 
+
+```abap
+  CHECK sy-sysid cp 'D*'.
+```
 
 - Mandatory step: Execute the application (Required for updating Z tables with config meta data )
 - Run ALV configurator app (component ZALV_COMP_CONFIG) to change ALV config
