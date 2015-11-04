@@ -10,7 +10,7 @@
 ```abap
 lo_cmp_usage =   wd_this->wd_cpuse_zalv( ).
 IF lo_cmp_usage->has_active_component( ) IS INITIAL.
-lo_cmp_usage->create_component( ).
+    lo_cmp_usage->create_component( ).
 ENDIF.
 
 DATA lo_interfacecontroller TYPE REF TO ziwci_alv .
