@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="utf-16"?>
+<nugget name="WDA_CONTEXT_HANDLER">
+ <INTF CLSNAME="ZIF_WDA_CTX_HANDLER" VERSION="1" LANGU="E" DESCRIPT="WDA Context handler" UUID="55536F569AD90970E100800011AAD625" CATEGORY="00" EXPOSURE="2" STATE="1" RELEASE="0" AUTHOR="C1573346RA" CREATEDON="20150513" CHANGEDON="00000000" CHGDANYON="00000000" UNICODE="X" R3RELEASE="702">
+  <method CLSNAME="ZIF_WDA_CTX_HANDLER" CMPNAME="DELETE_ELEMENT" VERSION="1" LANGU="E" DESCRIPT="Delete Element" EXPOSURE="2" STATE="1" EDITORDER="7 " DISPID="0 " AUTHOR="C1573346RA" CREATEDON="20150514" CHANGEDON="00000000" MTDTYPE="0" MTDDECLTYP="0" R3RELEASE="702" BCMTDCAT="00" BCMTDSYN="0">
+   <parameter CLSNAME="ZIF_WDA_CTX_HANDLER" CMPNAME="DELETE_ELEMENT" SCONAME="PATH" VERSION="1" LANGU="E" CMPTYPE="1" MTDTYPE="0" EDITORDER="1 " DISPID="0 " AUTHOR="C1573346RA" CREATEDON="20150514" CHANGEDON="00000000" PARDECLTYP="0" PARPASSTYP="1" TYPTYPE="1" TYPE="STRING"/>
+   <parameter CLSNAME="ZIF_WDA_CTX_HANDLER" CMPNAME="DELETE_ELEMENT" SCONAME="INDEX" VERSION="1" LANGU="E" CMPTYPE="1" MTDTYPE="0" EDITORDER="2 " DISPID="0 " AUTHOR="C1573346RA" CREATEDON="20150514" CHANGEDBY="C1573346RA" CHANGEDON="20150514" PARDECLTYP="0" PARPASSTYP="1" TYPTYPE="1" TYPE="I" PAROPTIONL="X"/>
+  </method>
+  <method CLSNAME="ZIF_WDA_CTX_HANDLER" CMPNAME="GET_LEAD_INDEX" VERSION="1" LANGU="E" DESCRIPT="Get index of Lead selected row" EXPOSURE="2" STATE="1" EDITORDER="12 " DISPID="0 " AUTHOR="C1573346RA" CREATEDON="20150701" CHANGEDON="00000000" MTDTYPE="0" MTDDECLTYP="0" R3RELEASE="702" BCMTDCAT="00" BCMTDSYN="0">
+   <parameter CLSNAME="ZIF_WDA_CTX_HANDLER" CMPNAME="GET_LEAD_INDEX" SCONAME="PATH" VERSION="1" LANGU="E" CMPTYPE="1" MTDTYPE="0" EDITORDER="1 " DISPID="0 " AUTHOR="C1573346RA" CREATEDON="20150701" CHANGEDON="00000000" PARDECLTYP="0" PARPASSTYP="1" TYPTYPE="1" TYPE="STRING"/>
+   <parameter CLSNAME="ZIF_WDA_CTX_HANDLER" CMPNAME="GET_LEAD_INDEX" SCONAME="R_INDEX" VERSION="1" LANGU="E" DESCRIPT="Boolean Variable (X=True, -=False, Space=Unknown)" CMPTYPE="1" MTDTYPE="0" EDITORDER="2 " DISPID="0 " AUTHOR="C1573346RA" CREATEDON="20150701" CHANGEDBY="C1573346RA" CHANGEDON="20150707" PARDECLTYP="3" PARPASSTYP="0" TYPTYPE="1" TYPE="I"/>
+  </method>
+  <method CLSNAME="ZIF_WDA_CTX_HANDLER" CMPNAME="INVALIDATE" VERSION="1" LANGU="E" DESCRIPT="Invalidate" EXPOSURE="2" STATE="1" EDITORDER="11 " DISPID="0 " AUTHOR="C1573346RA" CREATEDON="20150514" CHANGEDBY="C1573346RA" CHANGEDON="20150514" MTDTYPE="0" MTDDECLTYP="0" R3RELEASE="702" BCMTDCAT="00" BCMTDSYN="0">
+   <parameter CLSNAME="ZIF_WDA_CTX_HANDLER" CMPNAME="INVALIDATE" SCONAME="PATH" VERSION="1" LANGU="E" CMPTYPE="1" MTDTYPE="0" EDITORDER="1 " DISPID="0 " AUTHOR="C1573346RA" CREATEDON="20150514" CHANGEDON="00000000" PARDECLTYP="0" PARPASSTYP="1" TYPTYPE="1" TYPE="STRING" PAROPTIONL="X"/>
+  </method>
+  <method CLSNAME="ZIF_WDA_CTX_HANDLER" CMPNAME="KEEP_ONLY_SELECTED" VERSION="1" LANGU="E" DESCRIPT="Keep Only Selected Elements - Delete others" EXPOSURE="2" STATE="1" EDITORDER="10 " DISPID="0 " AUTHOR="C1573346RA" CREATEDON="20150513" CHANGEDBY="C1573346RA" CHANGEDON="20150514" MTDTYPE="0" MTDDECLTYP="0" R3RELEASE="702" BCMTDCAT="00" BCMTDSYN="0">
+   <parameter CLSNAME="ZIF_WDA_CTX_HANDLER" CMPNAME="KEEP_ONLY_SELECTED" SCONAME="PATH" VERSION="1" LANGU="E" CMPTYPE="1" MTDTYPE="0" EDITORDER="1 " DISPID="0 " AUTHOR="C1573346RA" CREATEDON="20150513" CHANGEDON="00000000" PARDECLTYP="0" PARPASSTYP="1" TYPTYPE="1" TYPE="STRING"/>
+  </method>
+  <method CLSNAME="ZIF_WDA_CTX_HANDLER" CMPNAME="LEAD_SELECT_ELEMENT" VERSION="1" LANGU="E" DESCRIPT="Lead Select Element" EXPOSURE="2" STATE="1" EDITORDER="8 " DISPID="0 " AUTHOR="C1573346RA" CREATEDON="20150824" CHANGEDON="00000000" MTDTYPE="0" MTDDECLTYP="0" R3RELEASE="702" BCMTDCAT="00" BCMTDSYN="0">
+   <parameter CLSNAME="ZIF_WDA_CTX_HANDLER" CMPNAME="LEAD_SELECT_ELEMENT" SCONAME="PATH" VERSION="1" LANGU="E" CMPTYPE="1" MTDTYPE="0" EDITORDER="1 " DISPID="0 " AUTHOR="C1573346RA" CREATEDON="20150824" CHANGEDON="00000000" PARDECLTYP="0" PARPASSTYP="1" TYPTYPE="1" TYPE="STRING"/>
+   <parameter CLSNAME="ZIF_WDA_CTX_HANDLER" CMPNAME="LEAD_SELECT_ELEMENT" SCONAME="LAST" VERSION="1" LANGU="E" DESCRIPT="Boolean Variable (X=True, -=False, Space=Unknown)" CMPTYPE="1" MTDTYPE="0" EDITORDER="2 " DISPID="0 " AUTHOR="C1573346RA" CREATEDON="20150824" CHANGEDON="00000000" PARDECLTYP="0" PARPASSTYP="1" TYPTYPE="1" TYPE="BOOLEAN" PAROPTIONL="X"/>
+   <parameter CLSNAME="ZIF_WDA_CTX_HANDLER" CMPNAME="LEAD_SELECT_ELEMENT" SCONAME="FIRST" VERSION="1" LANGU="E" DESCRIPT="Boolean Variable (X=True, -=False, Space=Unknown)" CMPTYPE="1" MTDTYPE="0" EDITORDER="3 " DISPID="0 " AUTHOR="C1573346RA" CREATEDON="20150824" CHANGEDON="00000000" PARDECLTYP="0" PARPASSTYP="1" TYPTYPE="1" TYPE="BOOLEAN" PAROPTIONL="X"/>
+   <parameter CLSNAME="ZIF_WDA_CTX_HANDLER" CMPNAME="LEAD_SELECT_ELEMENT" SCONAME="INDEX" VERSION="1" LANGU="E" CMPTYPE="1" MTDTYPE="0" EDITORDER="4 " DISPID="0 " AUTHOR="C1573346RA" CREATEDON="20150824" CHANGEDON="00000000" PARDECLTYP="0" PARPASSTYP="1" TYPTYPE="1" TYPE="I" PAROPTIONL="X"/>
+   <parameter CLSNAME="ZIF_WDA_CTX_HANDLER" CMPNAME="LEAD_SELECT_ELEMENT" SCONAME="DONE" VERSION="1" LANGU="E" DESCRIPT="Boolean Variable (X=True, -=False, Space=Unknown)" CMPTYPE="1" MTDTYPE="0" EDITORDER="5 " DISPID="0 " AUTHOR="C1573346RA" CREATEDON="20150824" CHANGEDON="00000000" PARDECLTYP="3" PARPASSTYP="0" TYPTYPE="1" TYPE="BOOLEAN"/>
+  </method>
+  <method CLSNAME="ZIF_WDA_CTX_HANDLER" CMPNAME="READ_ATTRIBUTE" VERSION="1" LANGU="E" DESCRIPT="Read Attribute" EXPOSURE="2" STATE="1" EDITORDER="1 " DISPID="0 " AUTHOR="C1573346RA" CREATEDON="20150513" CHANGEDON="00000000" MTDTYPE="0" MTDDECLTYP="0" R3RELEASE="702" BCMTDCAT="00" BCMTDSYN="0">
+   <parameter CLSNAME="ZIF_WDA_CTX_HANDLER" CMPNAME="READ_ATTRIBUTE" SCONAME="PATH" VERSION="1" LANGU="E" CMPTYPE="1" MTDTYPE="0" EDITORDER="1 " DISPID="0 " AUTHOR="C1573346RA" CREATEDON="20150513" CHANGEDON="00000000" PARDECLTYP="0" PARPASSTYP="1" TYPTYPE="1" TYPE="STRING"/>
+   <parameter CLSNAME="ZIF_WDA_CTX_HANDLER" CMPNAME="READ_ATTRIBUTE" SCONAME="ATTRIBUTE" VERSION="1" LANGU="E" CMPTYPE="1" MTDTYPE="0" EDITORDER="2 " DISPID="0 " AUTHOR="C1573346RA" CREATEDON="20150513" CHANGEDON="00000000" PARDECLTYP="0" PARPASSTYP="1" TYPTYPE="1" TYPE="STRING"/>
+   <parameter CLSNAME="ZIF_WDA_CTX_HANDLER" CMPNAME="READ_ATTRIBUTE" SCONAME="INDEX" VERSION="1" LANGU="E" CMPTYPE="1" MTDTYPE="0" EDITORDER="3 " DISPID="0 " AUTHOR="C1573346RA" CREATEDON="20150513" CHANGEDBY="C1573346RA" CHANGEDON="20150513" PARDECLTYP="0" PARPASSTYP="1" TYPTYPE="1" TYPE="I" PAROPTIONL="X"/>
+   <parameter CLSNAME="ZIF_WDA_CTX_HANDLER" CMPNAME="READ_ATTRIBUTE" SCONAME="VALUE" VERSION="1" LANGU="E" CMPTYPE="1" MTDTYPE="0" EDITORDER="4 " DISPID="0 " AUTHOR="C1573346RA" CREATEDON="20150513" CHANGEDON="00000000" PARDECLTYP="1" PARPASSTYP="1" TYPTYPE="1" TYPE="DATA"/>
+  </method>
+  <method CLSNAME="ZIF_WDA_CTX_HANDLER" CMPNAME="READ_ELEMENT" VERSION="1" LANGU="E" DESCRIPT="Read Element" EXPOSURE="2" STATE="1" EDITORDER="5 " DISPID="0 " AUTHOR="C1573346RA" CREATEDON="20150513" CHANGEDON="00000000" MTDTYPE="0" MTDDECLTYP="0" R3RELEASE="702" BCMTDCAT="00" BCMTDSYN="0">
+   <parameter CLSNAME="ZIF_WDA_CTX_HANDLER" CMPNAME="READ_ELEMENT" SCONAME="PATH" VERSION="1" LANGU="E" CMPTYPE="1" MTDTYPE="0" EDITORDER="1 " DISPID="0 " AUTHOR="C1573346RA" CREATEDON="20150513" CHANGEDON="00000000" PARDECLTYP="0" PARPASSTYP="1" TYPTYPE="1" TYPE="STRING"/>
+   <parameter CLSNAME="ZIF_WDA_CTX_HANDLER" CMPNAME="READ_ELEMENT" SCONAME="INDEX" VERSION="1" LANGU="E" CMPTYPE="1" MTDTYPE="0" EDITORDER="2 " DISPID="0 " AUTHOR="C1573346RA" CREATEDON="20150513" CHANGEDON="00000000" PARDECLTYP="0" PARPASSTYP="1" TYPTYPE="1" TYPE="I" PAROPTIONL="X"/>
+   <parameter CLSNAME="ZIF_WDA_CTX_HANDLER" CMPNAME="READ_ELEMENT" SCONAME="ROW_DATA" VERSION="1" LANGU="E" CMPTYPE="1" MTDTYPE="0" EDITORDER="3 " DISPID="0 " AUTHOR="C1573346RA" CREATEDON="20150513" CHANGEDON="00000000" PARDECLTYP="1" PARPASSTYP="1" TYPTYPE="1" TYPE="DATA"/>
+  </method>
+  <method CLSNAME="ZIF_WDA_CTX_HANDLER" CMPNAME="READ_TABLE" VERSION="1" LANGU="E" DESCRIPT="Read Table" EXPOSURE="2" STATE="1" EDITORDER="3 " DISPID="0 " AUTHOR="C1573346RA" CREATEDON="20150513" CHANGEDON="00000000" MTDTYPE="0" MTDDECLTYP="0" R3RELEASE="702" BCMTDCAT="00" BCMTDSYN="0">
+   <parameter CLSNAME="ZIF_WDA_CTX_HANDLER" CMPNAME="READ_TABLE" SCONAME="PATH" VERSION="1" LANGU="E" CMPTYPE="1" MTDTYPE="0" EDITORDER="1 " DISPID="0 " AUTHOR="C1573346RA" CREATEDON="20150513" CHANGEDON="00000000" PARDECLTYP="0" PARPASSTYP="1" TYPTYPE="1" TYPE="STRING"/>
+   <parameter CLSNAME="ZIF_WDA_CTX_HANDLER" CMPNAME="READ_TABLE" SCONAME="SELECTED_ONLY" VERSION="1" LANGU="E" DESCRIPT="Return only selected elements" CMPTYPE="1" MTDTYPE="0" EDITORDER="2 " DISPID="0 " AUTHOR="C1573346RA" CREATEDON="20150604" CHANGEDON="00000000" PARDECLTYP="0" PARPASSTYP="1" TYPTYPE="1" TYPE="BOOLEAN" PAROPTIONL="X"/>
+   <parameter CLSNAME="ZIF_WDA_CTX_HANDLER" CMPNAME="READ_TABLE" SCONAME="TABLE" VERSION="1" LANGU="E" CMPTYPE="1" MTDTYPE="0" EDITORDER="3 " DISPID="0 " AUTHOR="C1573346RA" CREATEDON="20150513" CHANGEDBY="C1573346RA" CHANGEDON="20150604" PARDECLTYP="1" PARPASSTYP="1" TYPTYPE="1" TYPE="ANY TABLE"/>
+  </method>
+  <method CLSNAME="ZIF_WDA_CTX_HANDLER" CMPNAME="SELECT_ALL_ELEMENTS" VERSION="1" LANGU="E" DESCRIPT="Select All Elements" EXPOSURE="2" STATE="1" EDITORDER="9 " DISPID="0 " AUTHOR="C1573346RA" CREATEDON="20150513" CHANGEDBY="C1573346RA" CHANGEDON="20150514" MTDTYPE="0" MTDDECLTYP="0" R3RELEASE="702" BCMTDCAT="00" BCMTDSYN="0">
+   <parameter CLSNAME="ZIF_WDA_CTX_HANDLER" CMPNAME="SELECT_ALL_ELEMENTS" SCONAME="PATH" VERSION="1" LANGU="E" CMPTYPE="1" MTDTYPE="0" EDITORDER="1 " DISPID="0 " AUTHOR="C1573346RA" CREATEDON="20150513" CHANGEDON="00000000" PARDECLTYP="0" PARPASSTYP="1" TYPTYPE="1" TYPE="STRING"/>
+  </method>
+  <method CLSNAME="ZIF_WDA_CTX_HANDLER" CMPNAME="SELECT_ELEMENT" VERSION="1" LANGU="E" DESCRIPT="Select Element" EXPOSURE="2" STATE="1" EDITORDER="13 " DISPID="0 " AUTHOR="C1573346RA" CREATEDON="20150824" CHANGEDON="00000000" MTDTYPE="0" MTDDECLTYP="0" R3RELEASE="702" BCMTDCAT="00" BCMTDSYN="0">
+   <parameter CLSNAME="ZIF_WDA_CTX_HANDLER" CMPNAME="SELECT_ELEMENT" SCONAME="PATH" VERSION="1" LANGU="E" CMPTYPE="1" MTDTYPE="0" EDITORDER="1 " DISPID="0 " AUTHOR="C1573346RA" CREATEDON="20150824" CHANGEDON="00000000" PARDECLTYP="0" PARPASSTYP="1" TYPTYPE="1" TYPE="STRING"/>
+   <parameter CLSNAME="ZIF_WDA_CTX_HANDLER" CMPNAME="SELECT_ELEMENT" SCONAME="LAST" VERSION="1" LANGU="E" DESCRIPT="Boolean Variable (X=True, -=False, Space=Unknown)" CMPTYPE="1" MTDTYPE="0" EDITORDER="2 " DISPID="0 " AUTHOR="C1573346RA" CREATEDON="20150824" CHANGEDBY="C1573346RA" CHANGEDON="20150824" PARDECLTYP="0" PARPASSTYP="1" TYPTYPE="1" TYPE="BOOLEAN" PAROPTIONL="X"/>
+   <parameter CLSNAME="ZIF_WDA_CTX_HANDLER" CMPNAME="SELECT_ELEMENT" SCONAME="FIRST" VERSION="1" LANGU="E" DESCRIPT="Boolean Variable (X=True, -=False, Space=Unknown)" CMPTYPE="1" MTDTYPE="0" EDITORDER="3 " DISPID="0 " AUTHOR="C1573346RA" CREATEDON="20150824" CHANGEDBY="C1573346RA" CHANGEDON="20150824" PARDECLTYP="0" PARPASSTYP="1" TYPTYPE="1" TYPE="BOOLEAN" PAROPTIONL="X"/>
+   <parameter CLSNAME="ZIF_WDA_CTX_HANDLER" CMPNAME="SELECT_ELEMENT" SCONAME="INDEX" VERSION="1" LANGU="E" CMPTYPE="1" MTDTYPE="0" EDITORDER="4 " DISPID="0 " AUTHOR="C1573346RA" CREATEDON="20150824" CHANGEDBY="C1573346RA" CHANGEDON="20150824" PARDECLTYP="0" PARPASSTYP="1" TYPTYPE="1" TYPE="I" PAROPTIONL="X"/>
+   <parameter CLSNAME="ZIF_WDA_CTX_HANDLER" CMPNAME="SELECT_ELEMENT" SCONAME="DONE" VERSION="1" LANGU="E" DESCRIPT="Boolean Variable (X=True, -=False, Space=Unknown)" CMPTYPE="1" MTDTYPE="0" EDITORDER="5 " DISPID="0 " AUTHOR="C1573346RA" CREATEDON="20150824" CHANGEDON="00000000" PARDECLTYP="3" PARPASSTYP="0" TYPTYPE="1" TYPE="BOOLEAN"/>
+  </method>
+  <method CLSNAME="ZIF_WDA_CTX_HANDLER" CMPNAME="WRITE_ATTRIBUTE" VERSION="1" LANGU="E" DESCRIPT="Write Attribute" EXPOSURE="2" STATE="1" EDITORDER="2 " DISPID="0 " AUTHOR="C1573346RA" CREATEDON="20150513" CHANGEDON="00000000" MTDTYPE="0" MTDDECLTYP="0" R3RELEASE="702" BCMTDCAT="00" BCMTDSYN="0">
+   <parameter CLSNAME="ZIF_WDA_CTX_HANDLER" CMPNAME="WRITE_ATTRIBUTE" SCONAME="PATH" VERSION="1" LANGU="E" CMPTYPE="1" MTDTYPE="0" EDITORDER="1 " DISPID="0 " AUTHOR="C1573346RA" CREATEDON="20150513" CHANGEDON="00000000" PARDECLTYP="0" PARPASSTYP="1" TYPTYPE="1" TYPE="STRING"/>
+   <parameter CLSNAME="ZIF_WDA_CTX_HANDLER" CMPNAME="WRITE_ATTRIBUTE" SCONAME="ATTRIBUTE" VERSION="1" LANGU="E" CMPTYPE="1" MTDTYPE="0" EDITORDER="2 " DISPID="0 " AUTHOR="C1573346RA" CREATEDON="20150513" CHANGEDON="00000000" PARDECLTYP="0" PARPASSTYP="1" TYPTYPE="1" TYPE="STRING"/>
+   <parameter CLSNAME="ZIF_WDA_CTX_HANDLER" CMPNAME="WRITE_ATTRIBUTE" SCONAME="INDEX" VERSION="1" LANGU="E" CMPTYPE="1" MTDTYPE="0" EDITORDER="3 " DISPID="0 " AUTHOR="C1573346RA" CREATEDON="20150513" CHANGEDBY="C1573346RA" CHANGEDON="20150513" PARDECLTYP="0" PARPASSTYP="1" TYPTYPE="1" TYPE="I" PAROPTIONL="X"/>
+   <parameter CLSNAME="ZIF_WDA_CTX_HANDLER" CMPNAME="WRITE_ATTRIBUTE" SCONAME="VALUE" VERSION="1" LANGU="E" CMPTYPE="1" MTDTYPE="0" EDITORDER="4 " DISPID="0 " AUTHOR="C1573346RA" CREATEDON="20150513" CHANGEDON="00000000" PARDECLTYP="0" PARPASSTYP="1" TYPTYPE="1" TYPE="DATA"/>
+  </method>
+  <method CLSNAME="ZIF_WDA_CTX_HANDLER" CMPNAME="WRITE_ELEMENT" VERSION="1" LANGU="E" DESCRIPT="Write Element" EXPOSURE="2" STATE="1" EDITORDER="6 " DISPID="0 " AUTHOR="C1573346RA" CREATEDON="20150513" CHANGEDON="00000000" MTDTYPE="0" MTDDECLTYP="0" R3RELEASE="702" BCMTDCAT="00" BCMTDSYN="0"/>
+  <method CLSNAME="ZIF_WDA_CTX_HANDLER" CMPNAME="WRITE_TABLE" VERSION="1" LANGU="E" DESCRIPT="Write Table" EXPOSURE="2" STATE="1" EDITORDER="4 " DISPID="0 " AUTHOR="C1573346RA" CREATEDON="20150513" CHANGEDON="00000000" MTDTYPE="0" MTDDECLTYP="0" R3RELEASE="702" BCMTDCAT="00" BCMTDSYN="0">
+   <parameter CLSNAME="ZIF_WDA_CTX_HANDLER" CMPNAME="WRITE_TABLE" SCONAME="PATH" VERSION="1" LANGU="E" CMPTYPE="1" MTDTYPE="0" EDITORDER="1 " DISPID="0 " AUTHOR="C1573346RA" CREATEDON="20150513" CHANGEDON="00000000" PARDECLTYP="0" PARPASSTYP="1" TYPTYPE="1" TYPE="STRING"/>
+   <parameter CLSNAME="ZIF_WDA_CTX_HANDLER" CMPNAME="WRITE_TABLE" SCONAME="APPEND" VERSION="1" LANGU="E" DESCRIPT="Boolean Variable (X=True, -=False, Space=Unknown)" CMPTYPE="1" MTDTYPE="0" EDITORDER="2 " DISPID="0 " AUTHOR="C1573346RA" CREATEDON="20150513" CHANGEDON="00000000" PARDECLTYP="0" PARPASSTYP="1" TYPTYPE="1" TYPE="BOOLEAN" PAROPTIONL="X"/>
+   <parameter CLSNAME="ZIF_WDA_CTX_HANDLER" CMPNAME="WRITE_TABLE" SCONAME="TABLE" VERSION="1" LANGU="E" CMPTYPE="1" MTDTYPE="0" EDITORDER="3 " DISPID="0 " AUTHOR="C1573346RA" CREATEDON="20150513" CHANGEDBY="C1573346RA" CHANGEDON="20150513" PARDECLTYP="0" PARPASSTYP="1" TYPTYPE="1" TYPE="ANY TABLE"/>
+   <parameter CLSNAME="ZIF_WDA_CTX_HANDLER" CMPNAME="WRITE_TABLE" SCONAME="ADJUST" VERSION="1" LANGU="E" DESCRIPT="Adjust the table" CMPTYPE="1" MTDTYPE="0" EDITORDER="4 " DISPID="0 " AUTHOR="C1573346RA" CREATEDON="20150513" CHANGEDON="00000000" PARDECLTYP="0" PARPASSTYP="1" TYPTYPE="1" TYPE="BOOLEAN" PAROPTIONL="X"/>
+  </method>
+ </INTF>
+ <CLAS CLSNAME="ZCL_WDA_CTX_HANDLER" VERSION="1" LANGU="E" DESCRIPT="WDA Context handler" UUID="5553B46D9AFF3EC0E100800011AAD625" CATEGORY="00" EXPOSURE="2" STATE="1" RELEASE="0" AUTHOR="C1573346RA" CREATEDON="20150513" CHANGEDON="00000000" CHGDANYON="00000000" CLSCCINCL="X" FIXPT="X" UNICODE="X" R3RELEASE="702" CLSBCCAT="00" DURATION_TYPE="0 " RISK_LEVEL="0 ">
+  <implementing CLSNAME="ZCL_WDA_CTX_HANDLER" REFCLSNAME="ZIF_WDA_CTX_HANDLER" VERSION="1" EXPOSURE="2" STATE="1" AUTHOR="C1573346RA" CREATEDON="20150513" CHANGEDON="00000000" RELTYPE="1" EDITORDER="1 "/>
+  <publicSection>class ZCL_WDA_CTX_HANDLER definition
+  public
+  create public .
+
+public section.
+*&quot;* public components of class ZCL_WDA_CTX_HANDLER
+*&quot;* do not include other source files here!!!
+
+  interfaces ZIF_WDA_CTX_HANDLER .
+
+  methods CONSTRUCTOR
+    importing
+      !CTX type ref to IF_WD_CONTEXT_NODE .
+  class-methods CREATE
+    importing
+      !CTX type ref to IF_WD_CONTEXT_NODE
+    returning
+      value(CTX_HANDLER) type ref to ZCL_WDA_CTX_HANDLER .</publicSection>
+  <protectedSection>protected section.
+*&quot;* protected components of class ZCL_WDA_CTX_HANDLER
+*&quot;* do not include other source files here!!!</protectedSection>
+  <privateSection>private section.
+*&quot;* private components of class ZCL_WDA_CTX_HANDLER
+*&quot;* do not include other source files here!!!
+
+  data CTX type ref to IF_WD_CONTEXT_NODE .</privateSection>
+  <localImplementation>*&quot;* use this source file for the definition and implementation of
+*&quot;* local helper classes, interface definitions and type
+*&quot;* declarations</localImplementation>
+  <localTypes>*&quot;* use this source file for any type of declarations (class
+*&quot;* definitions, interfaces or type declarations) you need for
+*&quot;* components in the private section</localTypes>
+  <localMacros>*&quot;* use this source file for any macro definitions you need
+*&quot;* in the implementation part of the class</localMacros>
+  <attribute CLSNAME="ZCL_WDA_CTX_HANDLER" CMPNAME="CTX" VERSION="1" LANGU="E" DESCRIPT="Web Dynpro: Interface for Context Nodes" EXPOSURE="0" STATE="1" EDITORDER="1 " AUTHOR="C1573346RA" CREATEDON="20150513" CHANGEDON="00000000" ATTDECLTYP="0" ATTEXPVIRT="0" TYPTYPE="3" TYPE="IF_WD_CONTEXT_NODE" SRCROW1="0 " SRCCOLUMN1="0 " SRCROW2="0 " SRCCOLUMN2="0 " R3RELEASE="702" TYPESRC_LENG="0 "/>
+  <interfaceMethod CLSNAME="ZCL_WDA_CTX_HANDLER" CPDNAME="ZIF_WDA_CTX_HANDLER~DELETE_ELEMENT">
+   <source>************************************************************************
+* PROJECT       : RCI Phase 2                                          *
+* DESCRIPTION   : Initialize                                           *
+* CREATED BY    : C1573346RA                                           *
+* CREATION DATE : 05/15/2015                                           *
+************************************************************************
+*                        MODIFICATION HISTORY                          *
+************************************************************************
+* Date       Programmer  Description            Ticket    Correction   *
+*----------------------------------------------------------------------*
+* 05/15/2015 C1573346RA  Initial Dev.           20277985  DV3K958284   *
+************************************************************************
+method ZIF_WDA_CTX_HANDLER~DELETE_ELEMENT.
+
+  DATA lo_nd TYPE REF TO if_wd_context_node.
+  DATA lo_el TYPE REF TO if_wd_context_element.
+
+* navigate from &lt;CONTEXT&gt; to &lt;NEW_STRGRP&gt; via lead selection
+  lo_nd = ctx-&gt;path_get_node( path ).
+
+* @TODO handle non existant child
+ IF lo_nd IS INITIAL.
+   return.
+ ENDIF.
+
+* get element via lead selection
+  if index is initial.
+  lo_el = lo_nd-&gt;get_element( ).
+  else.
+  lo_el = lo_nd-&gt;get_element( index ).
+  endif.
+* @TODO handle not set lead selection
+  IF lo_el IS INITIAL.
+    return.
+  ENDIF.
+
+  lo_nd-&gt;remove_element( lo_el ).
+
+endmethod.</source>
+  </interfaceMethod>
+  <interfaceMethod CLSNAME="ZCL_WDA_CTX_HANDLER" CPDNAME="ZIF_WDA_CTX_HANDLER~GET_LEAD_INDEX">
+   <source>************************************************************************
+* PROJECT       : RCI Phase 2                                          *
+* DESCRIPTION   : GET_LEAD_INDEX                                       *
+* CREATED BY    : C1573346RA                                           *
+* CREATION DATE : 05/15/2015                                           *
+************************************************************************
+*                        MODIFICATION HISTORY                          *
+************************************************************************
+* Date       Programmer  Description            Ticket    Correction   *
+*----------------------------------------------------------------------*
+* 05/15/2015 C1573346RA  Initial Dev.           20277985  DV3K958284   *
+* 07/07/2015 C1573346RA                        R20277985   DV3K959872  *
+* Fixed issue related to no lead selection                             *
+************************************************************************
+method ZIF_WDA_CTX_HANDLER~GET_LEAD_INDEX.
+
+  DATA lo_nd TYPE REF TO if_wd_context_node.
+  DATA lo_el TYPE REF TO if_wd_context_element.
+
+* navigate from &lt;CONTEXT&gt; to &lt;NEW_STRGRP&gt; via lead selection
+  lo_nd = ctx-&gt;path_get_node( path ).
+
+* @TODO handle non existant child
+ IF lo_nd IS INITIAL.
+   return.
+ ENDIF.
+
+ r_index = lo_nd-&gt;GET_LEAD_SELECTION_INDEX( ).
+
+* if nothing is selected then r_index = -2
+ if r_index lt 0.
+   clear r_index.
+ endif.
+
+endmethod.</source>
+  </interfaceMethod>
+  <interfaceMethod CLSNAME="ZCL_WDA_CTX_HANDLER" CPDNAME="ZIF_WDA_CTX_HANDLER~INVALIDATE">
+   <source>************************************************************************
+* PROJECT       : RCI Phase 2                                          *
+* DESCRIPTION   : Initialize                                           *
+* CREATED BY    : C1573346RA                                           *
+* CREATION DATE : 05/15/2015                                           *
+************************************************************************
+*                        MODIFICATION HISTORY                          *
+************************************************************************
+* Date       Programmer  Description            Ticket    Correction   *
+*----------------------------------------------------------------------*
+* 05/15/2015 C1573346RA  Initial Dev.           20277985  DV3K958284   *
+************************************************************************
+METHOD zif_wda_ctx_handler~invalidate.
+
+  DATA lo_nd TYPE REF TO if_wd_context_node.
+
+  IF path IS SUPPLIED.
+* navigate from &lt;CONTEXT&gt; to &lt;STRGRP&gt; via lead selection
+    lo_nd = ctx-&gt;path_get_node( path ).
+
+* @TODO handle non existant child
+    IF lo_nd IS INITIAL.
+      RETURN.
+    ENDIF.
+
+    lo_nd-&gt;invalidate( ).
+  ELSE.
+    ctx-&gt;invalidate( ).
+  ENDIF.
+
+ENDMETHOD.</source>
+  </interfaceMethod>
+  <interfaceMethod CLSNAME="ZCL_WDA_CTX_HANDLER" CPDNAME="ZIF_WDA_CTX_HANDLER~KEEP_ONLY_SELECTED">
+   <source>************************************************************************
+* PROJECT       : RCI Phase 2                                          *
+* DESCRIPTION   : Initialize                                           *
+* CREATED BY    : C1573346RA                                           *
+* CREATION DATE : 05/15/2015                                           *
+************************************************************************
+*                        MODIFICATION HISTORY                          *
+************************************************************************
+* Date       Programmer  Description            Ticket    Correction   *
+*----------------------------------------------------------------------*
+* 05/15/2015 C1573346RA  Initial Dev.           20277985  DV3K958284   *
+************************************************************************
+method ZIF_WDA_CTX_HANDLER~KEEP_ONLY_SELECTED.
+
+  DATA lo_nd TYPE REF TO if_wd_context_node.
+  data lt_all_elements type WDR_CONTEXT_ELEMENT_SET.
+  data ls_all_elements like line of lt_all_elements.
+
+*   navigate from &lt;CONTEXT&gt; to &lt;STRGRP&gt; via lead selection
+  lo_nd = me-&gt;ctx-&gt;path_get_node( path ).
+
+*   @TODO handle non existant child
+  IF lo_nd IS INITIAL.
+    RETURN.
+  ENDIF.
+
+  lt_all_elements = lo_nd-&gt;get_elements( ).
+  loop at lt_all_elements into ls_all_elements.
+    if ls_all_elements-&gt;is_selected( ) is initial.
+      lo_nd-&gt;remove_element( ls_all_elements ).
+    endif.
+  endloop.
+endmethod.</source>
+  </interfaceMethod>
+  <interfaceMethod CLSNAME="ZCL_WDA_CTX_HANDLER" CPDNAME="ZIF_WDA_CTX_HANDLER~LEAD_SELECT_ELEMENT">
+   <source>************************************************************************
+* PROJECT       : RCI Phase 2                                          *
+* DESCRIPTION   : Initialize                                           *
+* CREATED BY    : C1573346RA                                           *
+* CREATION DATE : 05/15/2015                                           *
+************************************************************************
+*                        MODIFICATION HISTORY                          *
+************************************************************************
+* Date       Programmer  Description            Ticket    Correction   *
+*----------------------------------------------------------------------*
+* 05/15/2015 C1573346RA  Initial Dev.           20277985  DV3K958284   *
+* 07/07/2015 C1573346RA                        R20277985   DV3K959872  *
+* Fixed issue related to no lead selection                             *
+* 08/25/2015 C1573346RA                        R22363129   DV3K961237  *
+* replace select_element with lead_select_element method of            *
+* ZIF_WDA_CTX_HANDLER                                                  *
+************************************************************************
+METHOD ZIF_WDA_CTX_HANDLER~LEAD_SELECT_ELEMENT.
+
+* index has preference over first and last.
+
+  DATA lo_nd TYPE REF TO if_wd_context_node.
+  DATA lt_all_elements TYPE wdr_context_element_set.
+  data l_count type i.
+
+*   navigate from &lt;CONTEXT&gt; to &lt;STRGRP&gt; via lead selection
+  lo_nd = me-&gt;ctx-&gt;path_get_node( path ).
+
+*   @TODO handle non existant child
+  IF lo_nd IS INITIAL.
+    RETURN.
+  ENDIF.
+
+  l_count = lo_nd-&gt;get_element_count( ).
+
+  if l_count is initial.
+    return.
+  endif.
+
+  if index is supplied
+    and index LE l_count
+    and index gt 0.
+    lo_nd-&gt;SET_LEAD_SELECTION_INDEX( index ).
+    done = abap_true.
+  endif.
+
+  if last is supplied.
+    lo_nd-&gt;SET_LEAD_SELECTION_INDEX( l_count ).
+    done = abap_true.
+  endif.
+
+  if first is supplied.
+    lo_nd-&gt;SET_LEAD_SELECTION_INDEX( 1 ).
+    done = abap_true.
+  endif.
+
+ENDMETHOD.</source>
+  </interfaceMethod>
+  <interfaceMethod CLSNAME="ZCL_WDA_CTX_HANDLER" CPDNAME="ZIF_WDA_CTX_HANDLER~READ_ATTRIBUTE">
+   <source>************************************************************************
+* PROJECT       : RCI Phase 2                                          *
+* DESCRIPTION   : Initialize                                           *
+* CREATED BY    : C1573346RA                                           *
+* CREATION DATE : 05/15/2015                                           *
+************************************************************************
+*                        MODIFICATION HISTORY                          *
+************************************************************************
+* Date       Programmer  Description            Ticket    Correction   *
+*----------------------------------------------------------------------*
+* 05/15/2015 C1573346RA  Initial Dev.           20277985  DV3K958284   *
+************************************************************************
+METHOD zif_wda_ctx_handler~read_attribute.
+
+  DATA lo_nd TYPE REF TO if_wd_context_node.
+  DATA lo_el TYPE REF TO if_wd_context_element.
+*    DATA ls_el TYPE wd_this-&gt;element_strgrp.
+*    DATA lv_store_group TYPE wd_this-&gt;element_strgrp-store_group.
+
+*   navigate from &lt;CONTEXT&gt; to &lt;STRGRP&gt; via lead selection
+  lo_nd = me-&gt;ctx-&gt;path_get_node( path ).
+
+*   @TODO handle non existant child
+  IF lo_nd IS INITIAL.
+    RETURN.
+  ENDIF.
+
+*   get element via lead selection or Index.
+  IF index IS INITIAL.
+    lo_el = lo_nd-&gt;get_element( ).
+  ELSE.
+    lo_el = lo_nd-&gt;get_element( index ).
+  ENDIF.
+
+*   @TODO handle not set lead selection
+  IF lo_el IS INITIAL.
+    RETURN.
+  ENDIF.
+
+*   get single attribute
+  lo_el-&gt;get_attribute(
+    EXPORTING
+      name =  attribute
+    IMPORTING
+      value = value ).
+
+ENDMETHOD.</source>
+  </interfaceMethod>
+  <interfaceMethod CLSNAME="ZCL_WDA_CTX_HANDLER" CPDNAME="ZIF_WDA_CTX_HANDLER~READ_ELEMENT">
+   <source>************************************************************************
+* PROJECT       : RCI Phase 2                                          *
+* DESCRIPTION   : Initialize                                           *
+* CREATED BY    : C1573346RA                                           *
+* CREATION DATE : 05/15/2015                                           *
+************************************************************************
+*                        MODIFICATION HISTORY                          *
+************************************************************************
+* Date       Programmer  Description            Ticket    Correction   *
+*----------------------------------------------------------------------*
+* 05/15/2015 C1573346RA  Initial Dev.           20277985  DV3K958284   *
+************************************************************************
+method ZIF_WDA_CTX_HANDLER~READ_ELEMENT.
+
+  DATA lo_nd TYPE REF TO if_wd_context_node.
+  DATA lo_el TYPE REF TO if_wd_context_element.
+
+* navigate from &lt;CONTEXT&gt; to &lt;NEW_STRGRP&gt; via lead selection
+  lo_nd = ctx-&gt;path_get_node( path ).
+
+* @TODO handle non existant child
+ IF lo_nd IS INITIAL.
+   return.
+ ENDIF.
+
+* get element via lead selection
+  if index is initial.
+  lo_el = lo_nd-&gt;get_element( ).
+  else.
+  lo_el = lo_nd-&gt;get_element( index ).
+  endif.
+* @TODO handle not set lead selection
+  IF lo_el IS INITIAL.
+    return.
+  ENDIF.
+
+* get all declared attributes
+  lo_el-&gt;get_static_attributes(
+    IMPORTING
+      static_attributes = row_data ).
+endmethod.</source>
+  </interfaceMethod>
+  <interfaceMethod CLSNAME="ZCL_WDA_CTX_HANDLER" CPDNAME="ZIF_WDA_CTX_HANDLER~READ_TABLE">
+   <source>************************************************************************
+* PROJECT       : RCI Phase 2                                          *
+* DESCRIPTION   : Initialize                                           *
+* CREATED BY    : C1573346RA                                           *
+* CREATION DATE : 05/15/2015                                           *
+************************************************************************
+*                        MODIFICATION HISTORY                          *
+************************************************************************
+* Date       Programmer  Description            Ticket    Correction   *
+*----------------------------------------------------------------------*
+* 05/15/2015 C1573346RA  Initial Dev.           20277985  DV3K958284   *
+************************************************************************
+METHOD zif_wda_ctx_handler~read_table.
+
+
+  DATA: lo_nd           TYPE REF TO if_wd_context_node,
+        lt_el_selected  type wdr_context_element_set,
+        lwa_el_selected like line of lt_el_selected,
+        lr_row          type ref to data.
+
+  DATA lo_nd_info     TYPE REF TO if_wd_context_node_info.
+  DATA nd_str_descr   TYPE REF TO cl_abap_structdescr.
+  DATA nd_tbl_descr   TYPE REF TO cl_abap_tabledescr.
+
+  field-symbols: &lt;lfs_row&gt; type data.
+
+* navigate from &lt;CONTEXT&gt; to &lt;STRGRP&gt; via lead selection
+  lo_nd = ctx-&gt;path_get_node( path ).
+
+* @TODO handle non existant child
+  IF lo_nd IS INITIAL.
+    RETURN.
+  ENDIF.
+
+  IF selected_only IS INITIAL.
+    lo_nd-&gt;get_static_attributes_table( IMPORTING table = table ).
+  ELSE.
+    lt_el_selected = lo_nd-&gt;get_selected_elements( ).
+    lo_nd_info = lo_nd-&gt;get_node_info( ).
+    nd_str_descr = lo_nd_info-&gt;get_static_attributes_type( ).
+*    nd_tbl_descr = cl_abap_tabledescr=&gt;create( nd_str_descr ).
+
+    CREATE DATA lr_row TYPE HANDLE nd_str_descr.
+    assign lr_row-&gt;* to &lt;lfs_row&gt;.
+    LOOP AT lt_el_selected INTO lwa_el_selected.
+      lwa_el_selected-&gt;get_static_attributes( IMPORTING static_attributes = &lt;lfs_row&gt; ).
+      insert &lt;lfs_row&gt; into table table.
+    ENDLOOP.
+  ENDIF.
+ENDMETHOD.</source>
+  </interfaceMethod>
+  <interfaceMethod CLSNAME="ZCL_WDA_CTX_HANDLER" CPDNAME="ZIF_WDA_CTX_HANDLER~SELECT_ALL_ELEMENTS">
+   <source>************************************************************************
+* PROJECT       : RCI Phase 2                                          *
+* DESCRIPTION   : Initialize                                           *
+* CREATED BY    : C1573346RA                                           *
+* CREATION DATE : 05/15/2015                                           *
+************************************************************************
+*                        MODIFICATION HISTORY                          *
+************************************************************************
+* Date       Programmer  Description            Ticket    Correction   *
+*----------------------------------------------------------------------*
+* 05/15/2015 C1573346RA  Initial Dev.           20277985  DV3K958284   *
+************************************************************************
+method ZIF_WDA_CTX_HANDLER~SELECT_ALL_ELEMENTS.
+
+  DATA lo_nd TYPE REF TO if_wd_context_node.
+  data lt_all_elements type WDR_CONTEXT_ELEMENT_SET.
+  data ls_all_elements like line of lt_all_elements.
+
+*   navigate from &lt;CONTEXT&gt; to &lt;STRGRP&gt; via lead selection
+  lo_nd = me-&gt;ctx-&gt;path_get_node( path ).
+
+*   @TODO handle non existant child
+  IF lo_nd IS INITIAL.
+    RETURN.
+  ENDIF.
+
+  lt_all_elements = lo_nd-&gt;get_elements( ).
+  loop at lt_all_elements into ls_all_elements.
+    ls_all_elements-&gt;set_selected( abap_true ).
+  endloop.
+
+endmethod.</source>
+  </interfaceMethod>
+  <interfaceMethod CLSNAME="ZCL_WDA_CTX_HANDLER" CPDNAME="ZIF_WDA_CTX_HANDLER~SELECT_ELEMENT">
+   <source>************************************************************************
+* PROJECT       : RCI Phase 2                                          *
+* DESCRIPTION   : Initialize                                           *
+* CREATED BY    : C1573346RA                                           *
+* CREATION DATE : 05/15/2015                                           *
+************************************************************************
+*                        MODIFICATION HISTORY                          *
+************************************************************************
+* Date       Programmer  Description            Ticket    Correction   *
+*----------------------------------------------------------------------*
+* 05/15/2015 C1573346RA  Initial Dev.           20277985  DV3K958284   *
+* 07/07/2015 C1573346RA                        R20277985   DV3K959872  *
+* Fixed issue related to no lead selection                             *
+* 08/25/2015 C1573346RA                        R22363129   DV3K961237  *
+* replace select_element with lead_select_element method of            *
+* ZIF_WDA_CTX_HANDLER                                                  *
+************************************************************************
+METHOD zif_wda_ctx_handler~select_element.
+
+* index has preference over first and last.
+
+  DATA lo_nd TYPE REF TO if_wd_context_node.
+  DATA lt_all_elements TYPE wdr_context_element_set.
+  DATA l_count TYPE i.
+
+*   navigate from &lt;CONTEXT&gt; to &lt;STRGRP&gt; via lead selection
+  lo_nd = me-&gt;ctx-&gt;path_get_node( path ).
+
+*   @TODO handle non existant child
+  IF lo_nd IS INITIAL.
+    RETURN.
+  ENDIF.
+
+  l_count = lo_nd-&gt;get_element_count( ).
+
+  IF l_count IS INITIAL.
+    RETURN.
+  ENDIF.
+
+  IF index IS SUPPLIED
+    AND index LE l_count
+    AND index GT 0.
+    lo_nd-&gt;set_selected( index ).
+    done = abap_true.
+  ENDIF.
+
+  IF last IS SUPPLIED.
+    lo_nd-&gt;set_selected( l_count ).
+    done = abap_true.
+  ENDIF.
+
+  IF first IS SUPPLIED.
+    lo_nd-&gt;set_selected( 1 ).
+    done = abap_true.
+  ENDIF.
+
+ENDMETHOD.</source>
+  </interfaceMethod>
+  <interfaceMethod CLSNAME="ZCL_WDA_CTX_HANDLER" CPDNAME="ZIF_WDA_CTX_HANDLER~WRITE_ATTRIBUTE">
+   <source>************************************************************************
+* PROJECT       : RCI Phase 2                                          *
+* DESCRIPTION   : Initialize                                           *
+* CREATED BY    : C1573346RA                                           *
+* CREATION DATE : 05/15/2015                                           *
+************************************************************************
+*                        MODIFICATION HISTORY                          *
+************************************************************************
+* Date       Programmer  Description            Ticket    Correction   *
+*----------------------------------------------------------------------*
+* 05/15/2015 C1573346RA  Initial Dev.           20277985  DV3K958284   *
+************************************************************************
+method ZIF_WDA_CTX_HANDLER~WRITE_ATTRIBUTE.
+
+    DATA lo_nd TYPE REF TO if_wd_context_node.
+    DATA lo_el TYPE REF TO if_wd_context_element.
+*    DATA ls_el TYPE wd_this-&gt;element_strgrp.
+*    DATA lv_store_group TYPE wd_this-&gt;element_strgrp-store_group.
+
+*   navigate from &lt;CONTEXT&gt; to &lt;STRGRP&gt; via lead selection
+    lo_nd = me-&gt;ctx-&gt;PATH_GET_NODE( path ).
+
+*   @TODO handle non existant child
+   IF lo_nd IS INITIAL.
+     return.
+   ENDIF.
+
+*   get element via lead selection
+    if index is initial.
+    lo_el = lo_nd-&gt;get_element( ).
+    else.
+    lo_el = lo_nd-&gt;get_element( index ).
+    endif.
+
+*   @TODO handle not set lead selection
+    IF lo_el IS INITIAL.
+      return.
+    ENDIF.
+
+*   set single attribute
+    lo_el-&gt;set_attribute(
+      EXPORTING
+        name =  attribute
+        value = value ).
+
+endmethod.</source>
+  </interfaceMethod>
+  <interfaceMethod CLSNAME="ZCL_WDA_CTX_HANDLER" CPDNAME="ZIF_WDA_CTX_HANDLER~WRITE_ELEMENT">
+   <source>************************************************************************
+* PROJECT       : RCI Phase 2                                          *
+* DESCRIPTION   : Initialize                                           *
+* CREATED BY    : C1573346RA                                           *
+* CREATION DATE : 05/15/2015                                           *
+************************************************************************
+*                        MODIFICATION HISTORY                          *
+************************************************************************
+* Date       Programmer  Description            Ticket    Correction   *
+*----------------------------------------------------------------------*
+* 05/15/2015 C1573346RA  Initial Dev.           20277985  DV3K958284   *
+************************************************************************
+method ZIF_WDA_CTX_HANDLER~WRITE_ELEMENT.
+endmethod.</source>
+  </interfaceMethod>
+  <interfaceMethod CLSNAME="ZCL_WDA_CTX_HANDLER" CPDNAME="ZIF_WDA_CTX_HANDLER~WRITE_TABLE">
+   <source>************************************************************************
+* PROJECT       : RCI Phase 2                                          *
+* DESCRIPTION   : Initialize                                           *
+* CREATED BY    : C1573346RA                                           *
+* CREATION DATE : 05/15/2015                                           *
+************************************************************************
+*                        MODIFICATION HISTORY                          *
+************************************************************************
+* Date       Programmer  Description            Ticket    Correction   *
+*----------------------------------------------------------------------*
+* 05/15/2015 C1573346RA  Initial Dev.           20277985  DV3K958284   *
+************************************************************************
+METHOD zif_wda_ctx_handler~write_table.
+
+  DATA lo_nd TYPE     REF TO if_wd_context_node.
+  DATA l_set_init     TYPE boolean.
+  DATA lo_nd_info     TYPE REF TO if_wd_context_node_info.
+  DATA nd_str_descr   TYPE REF TO cl_abap_structdescr.
+  DATA nd_tbl_descr   TYPE REF TO cl_abap_tabledescr.
+  DATA lr_nd_table    TYPE REF TO data.
+
+  FIELD-SYMBOLS: &lt;lfs_nd_table&gt; TYPE standard table,
+                 &lt;lfs_nd_line&gt;  TYPE data,
+                 &lt;lfs_in_line&gt;  TYPE data.
+
+* navigate from &lt;CONTEXT&gt; to &lt;STRGRP&gt; via lead selection
+  lo_nd = ctx-&gt;path_get_node( path ).
+
+* @TODO handle non existant child
+  IF lo_nd IS INITIAL.
+    RETURN.
+  ENDIF.
+
+  IF append IS NOT INITIAL.
+    l_set_init = abap_false.
+  ELSE.
+    l_set_init = abap_true.
+  ENDIF.
+
+  IF adjust IS NOT INITIAL.
+*  get structure of node
+    lo_nd_info = lo_nd-&gt;get_node_info( ).
+    nd_str_descr = lo_nd_info-&gt;get_static_attributes_type( ).
+    nd_tbl_descr = cl_abap_tabledescr=&gt;create( nd_str_descr ).
+    CREATE DATA lr_nd_table TYPE HANDLE nd_tbl_descr.
+    ASSIGN lr_nd_table-&gt;* TO &lt;lfs_nd_table&gt;.
+
+    LOOP AT table ASSIGNING &lt;lfs_in_line&gt;.
+      APPEND INITIAL LINE TO &lt;lfs_nd_table&gt; ASSIGNING &lt;lfs_nd_line&gt;.
+      MOVE-CORRESPONDING &lt;lfs_in_line&gt; TO &lt;lfs_nd_line&gt;.
+    ENDLOOP.
+
+    lo_nd-&gt;bind_table( new_items = &lt;lfs_nd_table&gt; set_initial_elements = l_set_init ).
+
+  ELSE.
+    lo_nd-&gt;bind_table( new_items = table set_initial_elements = l_set_init ).
+  ENDIF.
+
+
+
+ENDMETHOD.</source>
+  </interfaceMethod>
+  <method CLSNAME="ZCL_WDA_CTX_HANDLER" CMPNAME="CONSTRUCTOR" VERSION="1" LANGU="E" DESCRIPT="CONSTRUCTOR" EXPOSURE="2" STATE="1" EDITORDER="1 " DISPID="0 " AUTHOR="C1573346RA" CREATEDON="20150513" CHANGEDON="00000000" MTDTYPE="2" MTDDECLTYP="0" R3RELEASE="702" BCMTDCAT="00" BCMTDSYN="0">
+   <parameter CLSNAME="ZCL_WDA_CTX_HANDLER" CMPNAME="CONSTRUCTOR" SCONAME="CTX" VERSION="1" LANGU="E" DESCRIPT="Web Dynpro: Interface for Context Nodes" CMPTYPE="1" MTDTYPE="2" EDITORDER="1 " DISPID="0 " AUTHOR="C1573346RA" CREATEDON="20150513" CHANGEDON="00000000" PARDECLTYP="0" PARPASSTYP="1" TYPTYPE="3" TYPE="IF_WD_CONTEXT_NODE"/>
+   <source>************************************************************************
+* PROJECT       : RCI Phase 2                                          *
+* DESCRIPTION   : Initialize                                           *
+* CREATED BY    : C1573346RA                                           *
+* CREATION DATE : 05/15/2015                                           *
+************************************************************************
+*                        MODIFICATION HISTORY                          *
+************************************************************************
+* Date       Programmer  Description            Ticket    Correction   *
+*----------------------------------------------------------------------*
+* 05/15/2015 C1573346RA  Initial Dev.           20277985  DV3K958284   *
+************************************************************************
+method CONSTRUCTOR.
+
+  me-&gt;ctx = ctx.
+
+endmethod.</source>
+  </method>
+  <method CLSNAME="ZCL_WDA_CTX_HANDLER" CMPNAME="CREATE" VERSION="1" LANGU="E" DESCRIPT="Create Instance" EXPOSURE="2" STATE="1" EDITORDER="2 " DISPID="0 " AUTHOR="C1573346RA" CREATEDON="20150513" CHANGEDBY="C1573346RA" CHANGEDON="20150513" MTDTYPE="0" MTDDECLTYP="1" R3RELEASE="702" BCMTDCAT="00" BCMTDSYN="0">
+   <parameter CLSNAME="ZCL_WDA_CTX_HANDLER" CMPNAME="CREATE" SCONAME="CTX" VERSION="1" LANGU="E" DESCRIPT="Web Dynpro: Interface for Context Nodes" CMPTYPE="1" MTDTYPE="0" EDITORDER="1 " DISPID="0 " AUTHOR="C1573346RA" CREATEDON="20150513" CHANGEDON="00000000" PARDECLTYP="0" PARPASSTYP="1" TYPTYPE="3" TYPE="IF_WD_CONTEXT_NODE"/>
+   <parameter CLSNAME="ZCL_WDA_CTX_HANDLER" CMPNAME="CREATE" SCONAME="CTX_HANDLER" VERSION="1" LANGU="E" DESCRIPT="WDA Context handler" CMPTYPE="1" MTDTYPE="0" EDITORDER="2 " DISPID="0 " AUTHOR="C1573346RA" CREATEDON="20150513" CHANGEDON="00000000" PARDECLTYP="3" PARPASSTYP="0" TYPTYPE="3" TYPE="ZCL_WDA_CTX_HANDLER"/>
+   <source>************************************************************************
+* PROJECT       : RCI Phase 2                                          *
+* DESCRIPTION   : Initialize                                           *
+* CREATED BY    : C1573346RA                                           *
+* CREATION DATE : 05/15/2015                                           *
+************************************************************************
+*                        MODIFICATION HISTORY                          *
+************************************************************************
+* Date       Programmer  Description            Ticket    Correction   *
+*----------------------------------------------------------------------*
+* 05/15/2015 C1573346RA  Initial Dev.           20277985  DV3K958284   *
+************************************************************************
+method CREATE.
+
+  create object ctx_handler exporting ctx = ctx.
+
+endmethod.</source>
+  </method>
+ </CLAS>
+</nugget>
