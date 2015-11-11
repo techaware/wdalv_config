@@ -33,12 +33,12 @@ lo_interfacecontroller->set_alv_usage(
   ).
 ```
 
-- In method UPDATE_DB_FROM_CONFIG of component controller of component ZALV - check if the current system is your development system. This ensures that Z tables are updated with config meta data only in Dev system. 
+- For production scenarios: In method UPDATE_DB_FROM_CONFIG of component controller of component ZALV - check if the current system is your development system. This ensures that Z tables are updated with config meta data only in Dev system. 
 
 ```abap
   CHECK sy-sysid cp 'D*'.
 ```
-- For other systems in the transport path(QA,IT,UT,PD), simply transport the table entries from ZTALV* tables where config_type = 02 (Wrapper Config)
+- Transport wrapper Config: For other systems in the transport path(QA,IT,UT,PD), simply transport the table entries from ZTALV* tables where config_type = 02 (Wrapper Config)
 
 **Note**
 - Mandatory step: Execute the application (Required for updating Z tables with config meta data ) before running ALV configurator App
